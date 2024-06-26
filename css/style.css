@@ -8,6 +8,10 @@ body {
     font-family: "Inter", sans-serif;
     font-size: 14px;
     text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
 
 }
 
@@ -15,10 +19,12 @@ main {
     background-color: hsl(0, 0%, 12%);
     height: 550px;
     width: 300px;
-    margin: 10%;
-    margin-left: 50% ;
-    bottom: 50%;
     border-radius: 2%;
+    max-width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 .img {
     width: 50px;
@@ -89,4 +95,21 @@ ul li a {
     text-decoration: center;
     border-radius: 3px;
     font-size: 15px;
+}
+
+@media (max-width: 375px) {
+    main {
+        max-width: 100%;
+        padding: 0 15px;
+    }
+
+    main {
+        margin: 0;
+    }
+}
+
+@media (min-width: 376px) and (max-width: 1440px) {
+    main {
+        max-width: 375px;
+    }
 }
