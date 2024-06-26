@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: hsl(0, 0%, 8%);
+    font-family: "Inter", sans-serif;
+    font-size: 14px;
+    text-align: center;
+
+}
+
+main {
+    background-color: hsl(0, 0%, 12%);
+    height: 550px;
+    width: 300px;
+    margin: 10%;
+    margin-left: 50% ;
+    bottom: 50%;
+    border-radius: 2%;
+}
+.img {
+    width: 50px;
+    height: 50px;
+    margin: 10px;
+    border-radius: 50%;
+    
+    
+}
+
+.div-img {
+    display: flex;
+    text-align: center;
+    margin-left: 35%;
+    
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    margin: 15px;
+}
+
+.location {
+    color: hsl(75, 94%, 57%);
+    text-align: center;
+    margin: 15px;
+}
+
+p {
+    color: hsl(0, 0%, 100%);
+    margin: 15px;
+}
+
+nav a{
+    display: flex;
+    text-align: center;
+    color: hsl(0, 0%, 100%);
+    background-color: hsl(0, 0%, 20%);
+    text-decoration: none;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 93%;
+    margin: 0;
+    margin-top: 15px;
+    padding: 10px;
+    padding-top:12px ;
+    font-weight: bold;
+    
+}
+a:hover {
+    background-color: hsl(75, 94%, 57%);
+    color: black;
+}
+
+
+
+li {
+    list-style-type: none;
+    padding: 15px;
+    
+}
+
+ul li a {
+    display: flex;
+    float: left;
+    text-decoration: center;
+    border-radius: 3px;
+    font-size: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
